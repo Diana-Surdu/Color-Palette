@@ -1,0 +1,22 @@
+.autocolor {
+  --color-1: brown;
+  --color-2: red;
+  --color-3: white;
+
+  border: 1px solid var(--color-3);
+  display: inline-block;
+  padding: 20px;
+
+  box-shadow: 0 0 13px 3px var(--color-2);
+  background-color: var(--color-1);
+}
+
+.autocolor img {
+  margin-bottom: 10px;
+}
+.autocolor figcaption {
+  color: var(--color-3);
+  font-family: Arial;
+  font-size: 50px;
+  text-align: center;
+}
